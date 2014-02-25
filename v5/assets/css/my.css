@@ -1,0 +1,11 @@
+#hidden-search{
+    display: none;
+    color: red;
+    font-size: 2em;
+    border: solid #e8d531;
+    border-width:2px ;
+}
+.display-border{
+    border: solid #000000;
+    border-width:1px ;
+}
