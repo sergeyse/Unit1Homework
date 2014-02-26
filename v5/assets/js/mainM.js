@@ -10,16 +10,22 @@ window.onload= function(){ (function () {
  var searchBlock = document.getElementById('hidden-search');
     var buttonB2=document.getElementById('b2');
     var nawBar=document.getElementsByClassName('container');
-    buttonB2.addEventListener('click',hideCarousel,false);
+    var homeButton = document.getElementById('back-home')
+   // buttonB2.addEventListener('click',hideCarousel,false);
 
 
  //searchButton.addEventListener('click',hideCarousel,true);
-//    buttonB2.addEventListener('click',hideCarousel);
+   buttonB2.addEventListener('click',hideCarousel);
  function hideCarousel(){
  featuredCarousel.style.display="none";
      searchBlock.style.display="block";
 
  }
+   homeButton.addEventListener('click',showCarousel);
+    function showCarousel(){
+        featuredCarousel.style.display="block";
+        searchBlock.style.display="none";
+    }
 
  })();
 }
