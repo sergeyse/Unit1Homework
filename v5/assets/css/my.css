@@ -5,7 +5,28 @@
     border: solid #e8d531;
     border-width:2px ;
 }
-.display-border{
-    border: solid #13f008;
-    border-width:1px ;
+.display-border1{
+    /*border: solid #13f008;
+    border-width:1px ;*/
+    background: #e3e3e3;
+}
+.display-border2{
+    /*border: solid #13f008;
+    border-width:1px ;*/
+    background: grey;
+}
+.display-border3{
+    /*border: solid #13f008;
+    border-width:1px ;*/
+    background: #3d3d3d;
+}
+.display-border-perent{
+    /*border: solid #13f008;
+    border-width:1px ;*/
+    background: #ed5c96;
+}
+.display-border-child{
+    /*border: solid #13f008;
+    border-width:1px ;*/
+    background: #13f008;
 }

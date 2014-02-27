@@ -4,7 +4,7 @@
 
 
 //---------- JavaScript ---------//
-window.onload= function(){ (function () {
+/*window.onload= function(){ (function () {
  var searchButton = document.getElementById("searchButton");
  var featuredCarousel = document.getElementById('carousel-to-hide');
  var searchBlock = document.getElementById('hidden-search');
@@ -28,8 +28,13 @@ window.onload= function(){ (function () {
     }
 
  })();
-}
+}*/
 //------------ JQuery example-----------//
+$("#b2").click(function(){
+    $("#carousel-to-hide").slideToggle("fast");
+    console.log("finish");
+    $("#hidden-search").slideToggle("slow");
+});
 
 /*(function($){
  $('#searchButton').on('click', showHide);
