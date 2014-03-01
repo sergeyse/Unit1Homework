@@ -1,0 +1,20 @@
+{
+     "content":[
+         {
+             "moto":"MSG",
+             "todo":"learn detailes",
+             "message":"message 1 from JSON"
+         },
+         {  "moto":"MSG",
+             "todo":"learn detailes again",
+             "message":"message 2 from JSON"
+         },
+         {  "moto":"MSG",
+             "todo":"and again -learn detailes",
+             "message":"Sorry did not finish UI rendering"
+         }
+
+
+     ]
+
+}
